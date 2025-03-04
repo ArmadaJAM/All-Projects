@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>User Feedback Survey</h1>
+    <form action="/submit" method="POST">
+    
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Rate Your Experience</legend>
+            <label for="experience">How satisfied are you with our service?</label><br>
+            <input type="radio" id="very_satisfied" name="experience" value="very_satisfied" required>
+            <label for="very_satisfied">Very Satisfied</label><br>
+            <input type="radio" id="satisfied" name="experience" value="satisfied">
+            <label for="satisfied">Satisfied</label><br>
+            <input type="radio" id="neutral" name="experience" value="neutral">
+            <label for="neutral">Neutral</label><br>
+            <input type="radio" id="dissatisfied" name="experience" value="dissatisfied">
+            <label for="dissatisfied">Dissatisfied</label><br>
+            <input type="radio" id="very_dissatisfied" name="experience" value="very_dissatisfied">
+            <label for="very_dissatisfied">Very Dissatisfied</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Features Valued</legend>
+            <label for="features">What features do you value most? (Select all that apply)</label><br>
+            <input type="checkbox" id="feature1" name="features" value="feature1">
+            <label for="feature1">Feature 1</label><br>
+            <input type="checkbox" id="feature2" name="features" value="feature2">
+            <label for="feature2">Feature 2</label><br>
+            <input type="checkbox" id="feature3" name="features" value="feature3">
+            <label for="feature3">Feature 3</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>User Role</legend>
+            <label for="role">What best describes you?</label><br>
+            <select id="role" name="role" required>
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Additional Comments</legend>
+            <label for="comments">Additional comments or suggestions:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </fieldset>
+
+       
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+    

@@ -1,0 +1,6 @@
+This task took me more than almost 1.5 hours.
+
+Initially, I struggled with understanding the importance and usage of semantic HTML elements. It was tempting to use <div> tags everywhere. 
+Resolution: I referred back to the course materials and examples to see how semantic tags enhance readability and accessibility. I practiced by converting non-semantic HTML to semantic HTML in small exercises, which helped solidify my understanding.
+
+This assignment was a challenging learning experience that enhanced my understanding of HTML and best practices. The challenges faced and resolved along the way contributed significantly to my growth as a web developer. If you have any more questions or need further assistance, feel free to ask!

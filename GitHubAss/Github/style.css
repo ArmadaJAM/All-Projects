@@ -1,0 +1,289 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+header {
+    background-color: #161b22;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-logo img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links a {
+    color: #c9d1d9;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-flex;
+    align-items: center;
+}
+
+.dropdown img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.nav-actions input {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    padding: 8px 12px;
+    color: #c9d1d9;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.nav-actions button {
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sign-in {
+    background-color: transparent;
+    border: 1px solid #30363d;
+    margin-right: 5px;
+}
+
+.sign-up {
+    background-color: #238636;
+}
+
+.main {
+    padding: 20px;
+}
+
+.explore-nav {
+    display: flex;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.explore-nav a {
+    color: #c9d1d9;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.explore-nav a.active {
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #c9d1d9;
+}
+
+.game-bytes {
+    text-align: center;
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.game-off-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.github-logo img {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.game-bytes h3, .game-bytes h4, .game-bytes p {
+    margin: 10px 0;
+    color: #c9d1d9;
+}
+
+.game-bytes h3 {
+    font-size: 1.5rem;
+    color: #58a6ff;
+}
+
+.game-bytes h4 {
+    font-size: 1.2rem;
+    color: #8b949e;
+}
+
+.collection {
+    text-align: center;
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.collection-image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.collection h4, .collection h3, .collection p {
+    margin: 10px 0;
+    color: #c9d1d9;
+}
+
+.collection h3 {
+    font-size: 1.5rem;
+    color: #58a6ff;
+}
+
+.collection h4 {
+    font-size: 1.2rem;
+    color: #8b949e;
+}
+
+.collection p {
+    font-size: 1rem;
+    color: #8b949e;
+}
+
+.trending-developers {
+    text-align: center;
+    color: #c9d1d9;
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+}
+
+.trending-developers h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #58a6ff;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #0d1117;
+}
+
+.developer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.developer-info {
+    text-align: left;
+    color: #c9d1d9;
+}
+
+.developer-info h3 {
+    margin: 0;
+    color: #58a6ff;
+}
+
+.developer-info p {
+    margin: 5px 0;
+    color: #8b949e;
+}
+
+.see-more {
+    margin-top: 20px;
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #161b22;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #c9d1d9;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+    flex: 1 100%;
+    text-align: center;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 100%;
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: #c9d1d9;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    footer p, footer nav {
+        flex: initial;
+        margin: 0;
+    }
+
+    footer nav {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Jan Alfred, and I am passionate about web development, design, and technology. I enjoy creating beautiful web applications and my latest hobby is Beyblade X</p>
+            <img src="img/1x1.jpg" alt="Avatar" class="avatar">
+        </section>
+
+        <section class="projects">
+            <h2>My Projects</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Hobbies</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gunpla</td>
+                        <td>Gunpla, or Gundam plastic model, is a model kit of characters and mecha from the anime series Mobile Suit Gundam.</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>Tokusatsu Collecting</td>
+                        <td>Tokusatsu toys are figures based on the Japanese genre of live-action special effects media called tokusatsu.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Beyblade X</td>
+                        <td>Beyblade X is the new generation of the Beyblade series, they kinda combine elements of all previous 3 generations.</td>
+                        <td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="/submit" method="POST" class="form">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br>
+                </fieldset>
+                <fieldset>
+                    <legend>How did you hear about this portfolio?</legend>
+                    <input type="radio" id="friend" name="referral" value="friend" required>
+                    <label for="friend">Friend</label><br>
+                    <input type="radio" id="social_media" name="referral" value="social_media">
+                    <label for="social_media">Social Media</label><br>
+                    <input type="radio" id="search_engine" name="referral" value="search_engine">
+                    <label for="search_engine">Search Engine</label><br>
+                    <input type="radio" id="other" name="referral" value="other">
+                    <label for="other">Other</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Skills/Interests</legend>
+                    <input type="checkbox" id="web_development" name="skills" value="web_development">
+                    <label for="web_development">Web Development</label><br>
+                    <input type="checkbox" id="design" name="skills" value="design">
+                    <label for="design">Design</label><br>
+                    <input type="checkbox" id="photography" name="skills" value="photography">
+                    <label for="photography">Photography</label><br>
+                    <input type="checkbox" id="beyblade" name="skills" value="beyblade">
+                    <label for="beyblade">Beyblade</label><br>
+                </fieldset>            
+                <fieldset>
+                    <legend>Additional Comments</legend>
+                    <label for="comments">Comments or messages:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© Jan Alfred Musni 2025</p>
+    </footer>
+</body>
+</html>

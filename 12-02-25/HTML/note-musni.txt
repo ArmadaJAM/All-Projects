@@ -1,0 +1,3 @@
+One of the main struggles I faced during this exercise was ensuring that the spacing between elements, particularly between the aside and section, was consistent and accurate without creating unintended gaps at the start and end of these elements. The process involved several iterations of adjusting CSS properties like margins, padding, and Flexbox properties to achieve the correct layout.
+
+The assignment took me approximately 1 hour to complete, aligning well with the estimated time provided. This included time spent on setting up the initial structure, applying styles, testing, and making iterative adjustments.

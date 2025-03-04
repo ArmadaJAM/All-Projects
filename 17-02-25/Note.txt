@@ -1,0 +1,3 @@
+In this challenge, I used Flexbox for layout positioning and applied margins, padding, and gaps to ensure proper spacing and alignment of elements. One of the struggles I faced was ensuring consistent spacing between nested elements. I resolved this by using the gap property in combination with Flexbox.
+
+The assignment took about 1.5 hours to complete. My favorite part of the styling was adding borders and designing the sections, which enhanced the visual appeal and improved the readability and structure of the content.

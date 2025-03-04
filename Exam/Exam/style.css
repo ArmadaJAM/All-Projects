@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    color: white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    width: 28px;
+    height: 28px;
+    background: url('https://media.discordapp.net/attachments/1335760619030315122/1343404611805122560/search-icon.png?ex=67bd268a&is=67bbd50a&hm=5e9dbb5af27b37f4782813eacafa025d05de536f106806a68df94f4cb69ab689&=&format=webp&quality=lossless') no-repeat center center;
+    background-size: cover;
+    background-color: rgb(207, 130, 30);
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+}
+
+
+nav.top-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav.top-nav ul li {
+    margin: 0 10px;
+}
+
+nav.top-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav.top-nav ul li img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.main-nav {
+    background-color: #ffffff;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.categories {
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.category {
+    margin: 30px;
+    text-align: center;
+}
+
+.category img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.category p {
+    margin-top: 10px;
+}
+
+.background-img {
+    text-align: center;
+}
+
+.background-img img {
+    width: 100%;
+    height: auto;
+}
+
+.exclusive {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.exclusive h2 {
+    text-align: start;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.discounted-price {
+    color: red;
+    font-weight: bold;
+}
+
+.save-amount {
+    color: green;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #434446;
+    text-align: center;
+    color: #fff;
+}
+
+
