@@ -1,0 +1,13 @@
+Task 1
+apple: 10
+banana: 15
+cherry: 5
+date: 20
+elderberry: 7
+Task 2
+["apple", "banana", "cherry", "mango", "zebra"]
+Task 3
+An array of 10 unique random numbers between 1 and 20 (e.g., [3, 14, 7, 19, 1, 10, 12, 17, 4, 9])
+
+Task 4 
+The sides 7, 10, and 5 form a valid triangle.
